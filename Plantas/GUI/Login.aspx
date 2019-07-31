@@ -10,12 +10,12 @@
                     <br />
                     <br />
                    
-                   <h1>Koptemosn</h1>
+                   <h1>Inicio de Sesión</h1>
                  
                     <div class="form-row">
                         <div class="form-group col-md-5">
 
-                         <h1>Iniciar sesion</h1>
+                      
                             <br />
                             
                             

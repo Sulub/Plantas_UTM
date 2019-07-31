@@ -16,6 +16,7 @@ namespace Plantas.GUI
 
         protected void btnAceptar_Click(object sender, EventArgs e)
         {
+
             Response.Redirect("Pagina_Prncipal.aspx");
         }
     }
