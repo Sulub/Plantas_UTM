@@ -1,5 +1,6 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage/Home.Master" AutoEventWireup="true" CodeBehind="Login.aspx.cs" Inherits="Plantas.GUI.Login" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+   <a  class="navbar-brand js-scroll-trigger" href="#page-top">Iniciar Sesión</a>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
      <div class="col-lg-12">

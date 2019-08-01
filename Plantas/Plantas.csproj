@@ -69,6 +69,8 @@
   <ItemGroup>
     <Content Include="GUI\Login.aspx" />
     <Content Include="GUI\Pagina_Prncipal.aspx" />
+    <Content Include="GUI\UsuarioEditar.aspx" />
+    <Content Include="GUI\Usuarios.aspx" />
     <Content Include="MasterPage\index.html" />
     <Content Include="Recursos\estudiante %281%29.png" />
     <Content Include="Recursos\Templete\css\freelancer.css" />
@@ -136,6 +138,20 @@
     <Compile Include="GUI\Pagina_Prncipal.aspx.designer.cs">
       <DependentUpon>Pagina_Prncipal.aspx</DependentUpon>
     </Compile>
+    <Compile Include="GUI\UsuarioEditar.aspx.cs">
+      <DependentUpon>UsuarioEditar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GUI\UsuarioEditar.aspx.designer.cs">
+      <DependentUpon>UsuarioEditar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Usuarios.aspx.cs">
+      <DependentUpon>Usuarios.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GUI\Usuarios.aspx.designer.cs">
+      <DependentUpon>Usuarios.aspx</DependentUpon>
+    </Compile>
     <Compile Include="MasterPage\Home.Master.cs">
       <DependentUpon>Home.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -144,6 +160,7 @@
       <DependentUpon>Home.Master</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Service\UsuarioCtrl.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="MasterPage\Home.Master" />
